@@ -1,0 +1,54 @@
+QPushButton { 
+	color: black;
+	font-weight: bold;
+	}
+/*QPushButton:disabled {
+	color: black;
+	}*/
+QPushButton:pressed { color: blue; }
+QPushButton:hover    { color: red;   }
+
+QFrame#case_demine {
+	background-color: #D2CACA;
+	}
+
+QFrame#case-NO {
+	border: 2px black;
+	/*border-bottom: 2px;
+	border-right: 2px; */
+	}
+QFrame#case-N {
+	border: solid black;
+	border-bottom: 2px;
+	}
+QFrame#case-NE {
+	border: solid black;
+	border-bottom: 2px;
+	border-left: 2px; 
+	}
+QFrame#case-E {
+	border: solid black;
+	border-left: 2px;
+	}
+QFrame#case-SE {
+	border: solid black;
+	border-top: 2px;
+	border-left: 2px;
+	}
+QFrame#case-S {
+	border: solid black;
+	border-top: 2px;
+	}
+QFrame#case-SO {
+	border: solid black;
+	border-top: 2px;
+	border-right: 2px; 
+	}
+QFrame#case-O {
+	border: solid black;
+	border-right: 2px;
+	}
+QLCDNumber {
+	background-color: black;
+	color: red;
+	}
